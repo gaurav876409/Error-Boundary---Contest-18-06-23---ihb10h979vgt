@@ -13,7 +13,7 @@ class ErrorBoundary extends React.Component {
     if (this.state.hasError) {
       return (
         <p id="error">
-          There is an error
+          There is an error in your react app. Please Check again. This message has been generated from error boundary
         </p>
       );
     }
