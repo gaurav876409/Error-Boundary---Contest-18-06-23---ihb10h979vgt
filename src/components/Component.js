@@ -10,9 +10,7 @@ const Component = (props) => {
 
   return (
     <>
-    {    
-        error && <div>{somethingNotDefined}</div>
-    }
+   
     </>
   );
 };
